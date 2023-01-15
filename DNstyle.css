@@ -1,0 +1,343 @@
+html{
+box-sizing: border-box; 
+font size: 100%;
+}
+*,*:before, *:after {
+box-sizing: inherit; 
+}
+
+body{
+margin: 0px;
+padding: 20px;
+font-family: Arial; 
+line-height: 1.3; 
+}
+#letus{
+	position: relative;
+
+
+top: 40%;
+
+font-family: 'Paytone One', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 5vw; 
+line-height: 97.46%;
+/* or 68px */
+
+text-align: center;
+
+color: #1B1B1B;
+	
+	
+}
+
+#loudspeaker{
+position: relative;
+width: 15%;
+
+left: -4%;
+top: 50%; 
+
+
+transform: rotate(3.71deg);
+}
+
+#line{
+	position: relative;
+width: 100%;
+height: auto;
+left: 1%;
+top: 48%;
+} 
+
+
+
+
+
+
+
+
+#box{
+	position: absolute; 
+	width: 100%; 
+	top: 120%; 
+}
+#aboutus1 {
+	position: relative;
+
+left: 15vw;
+top: -2vw;;
+
+font-family: Poppins;
+font-style: italic;
+font-weight: 600;
+font-size: 2.5vw;
+line-height: 42px;
+
+color: #3F3F3F;
+} 
+#aboutus2 {
+	position: relative;
+
+left: 55vw;
+top: 4vw;
+
+font-family: Poppins;
+font-style: italic;
+font-weight: 600;
+font-size: 2.5vw;
+line-height: 42px;
+
+color: #3F3F3F;
+}
+
+#aboutus3 {
+	position: relative;
+
+left: 15vw;
+top: 4vw;
+
+font-family: Poppins;
+font-style: italic;
+font-weight: 600;
+font-size: 2.5vw;
+line-height: 42px;
+
+color: #3F3F3F;
+} 
+
+#ourservices_back {
+	position: relative;
+
+left: 1%;
+top: 17vw;
+
+font-family: 'Paytone One', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 10vw;
+line-height: 209px;
+text-transform: capitalize;
+
+color: rgba(255, 255, 0, 0.2);
+} 
+
+#ourservices1 {
+position: relative;
+
+left: 5%;
+top: -1vw;
+
+font-family: 'Matcha Latte', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 7vw;
+line-height: 87px;
+
+
+
+} 
+
+.servicebox {
+position: relative;
+width: 17.4%;
+font-family: 'Montserrat', sans-serif;
+height: 30vw; 
+
+background: #F7F7F7;
+box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.15);
+border-radius: 20px;
+} 
+#servicebox1{
+	
+left:2%;
+top: 0% ;}
+
+#servicebox2{
+	
+left:22.4%; 
+top: -31vw;}
+#servicebox3{
+	
+left:41.8%;
+top: -62vw; }
+#servicebox4{
+	
+left:61.2%; 
+top: -93vw;}
+#servicebox5{
+	
+left:80.6%; 
+top: -124vw; }
+
+
+#countries{
+	
+	position: absolute;
+
+left: 178px;
+top: 2683.12px;
+
+border: 4px solid #000000;
+box-sizing: border-box;
+}
+.statistics{
+position: relative;
+	 
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+top: -110vw; 
+
+left: 15vw; 
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 5vw;
+line-height: 150px;
+/* identical to box height */
+
+color: #0D0D0D;
+} 
+.statistics_column{
+	 flex: 20%;
+  max-width: 20%;
+  padding: 0 4px;
+}
+.statistics_column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width:50%;
+}
+
+#ourwork_back{
+	position: relative;
+top: -120vw;
+
+
+font-family: 'Paytone One', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 10vw;
+line-height: 209px;
+text-transform: capitalize;
+
+color: rgba(255, 255, 0, 0.2);
+} 
+
+#ourwork1{
+	position: relative;
+top: -137vw;
+left: 5vw; 
+    font-family: 'Matcha Latte', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 5vw;
+line-height: 87px;
+
+}
+
+
+
+
+.frame_row {
+	position: relative;
+	top: -135vw;
+	left:10vw; 
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.frame_column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.frame_column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
+.clientsframe{
+position: relative;
+	 
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+top: -135vw; 
+
+left: 30vw; 
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 5vw;
+line-height: 150px;
+/* identical to box height */
+
+color: #0D0D0D;
+} 
+.clientsframe_column{
+	 flex: 20%;
+  max-width: 20%;
+  padding: 0 4px;
+}
+.clientsframe_column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width:50%;
+}
+
+
+.teamsframe{
+position: relative;
+	 
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+top: -100vw; 
+
+left:10vw; 
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 5vw;
+line-height: 150px;
+/* identical to box height */
+
+color: #0D0D0D;
+} 
+.teamsframe_column{
+	 flex: 20%;
+  max-width: 20%;
+  padding: 0 4px;
+}
+.teamsframe_column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width:50%;
+}
+
+
+#connectwithus1{
+		position: relative;
+top: 12vw;
+left: 6vw; 
+    font-family: 'Matcha Latte', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 5vw;
+line-height: 87px;
+
+	
+}
+
+
+
+
+
